@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    padding-top: 100px;
+}
+#nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+#canvas {
+    background-color: gray;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+
+
+}
+a {
+    style: none; 
+}
