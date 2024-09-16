@@ -1,12 +1,18 @@
 body {
     text-align: center;
+    justify-content: center;
+
     padding-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
 }
 #nav {
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 150px;
+
+
 
 }
 
@@ -14,27 +20,59 @@ body {
     display: flex;
     
 }
-#canvas {
+.canvas {
     background-color: gray;
     height: 1000px;
     width: 1000px;
     margin: auto;
     margin-left: 0px;
+    min-width: 1000px;
+    min-height: 1000px; 
 
 
 }
 a {
     text-decoration: none;
     color: black;
+    
+}
+a ul  {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+a ul:hover{
+    background-color: blue;
 }
 #toolbar {
     display: flex;
     flex-direction: column;
     margin: auto;
-    text-align:right;
-    background-color: blue;
+    padding: 0px;
     margin: 0px;
     height: 100%;
+    min-width: 148px;
+   
 
 
+}
+.current ul {
+    background: red;
+}
+#navbar input[type=text] {
+    border: none;
+    width: 1000px;
+    font-size: 20px;
+    background: gray;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 10px;
+  }
+
+#searchAndNotes{
+    display: flex;
+}
+#notes{
+    height: 1000px;
 }
